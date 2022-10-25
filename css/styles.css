@@ -743,14 +743,13 @@ img {
   border: 1px solid rgba(0, 0, 0, 0.1);
 
   cursor: pointer;
-  transition: border-color var(--timing-function), color var(--timing-function);
+  transition: color var(--timing-function);
 }
 .icon-close {
   fill: currentColor;
 }
 .button-close:hover,
 .button-close:focus {
-  border-color: var(--accent);
   color: var(--accent);
 }
 
